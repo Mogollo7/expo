@@ -1,22 +1,46 @@
-# Logs
-logs
+# Solo código e imágenes. Todo lo demás queda fuera del repositorio.
+
+# Dependencias y compilados
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+coverage/
+
+# Video y audio
+*.mp4
+*.webm
+*.mov
+*.mp3
+*.wav
+
+# Documentos y notas
+*.md
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.txt
+
+# Datos de trabajo y copias
+*.csv
+*.zip
+*.bak
+tmp/
+.agents/
+
+# Secretos y entorno
+.env
+.env.*
+
+# Registros, sistema y editor
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+.DS_Store
+Thumbs.db
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
