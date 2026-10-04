@@ -1,4 +1,4 @@
-# Solo código e imágenes. Todo lo demás queda fuera del repositorio.
+# Código, imágenes y video (todo lo que el sitio necesita al desplegarse). Lo demás queda fuera.
 
 # Dependencias y compilados
 node_modules/
@@ -7,13 +7,6 @@ dist-ssr/
 .vite/
 *.tsbuildinfo
 coverage/
-
-# Video y audio
-*.mp4
-*.webm
-*.mov
-*.mp3
-*.wav
 
 # Documentos y notas
 *.md
